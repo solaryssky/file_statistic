@@ -1,0 +1,14 @@
+[package]
+name = "cliring_log"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+ssh2 = "0.9.4"
+regex = "1.10.6"
+chrono = "0.4.38"
+zip = "2.2.0"
+zip-extensions = "0.8.1"
+sentry = "0.34.0"
+hostname = "0.4.0"
